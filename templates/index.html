@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='dist/css/output.css')}}"
+    />
     <title>Flowbite Flask</title>
-</head>
-<body>
-    <h1 class="text-blue-500">Hello, Flask!</h1>
-</body>
+  </head>
+  <body>
+    <div class="w-full flex flex-col items-center">
+      <h1 class="text-blue-500 mb-3">Hello, Flask!</h1>
+      <div class="flex">
+        <div
+          class="w-20 h-20 bg-gray-200 mr-2 flex justify-center items-center"
+        >
+          Block
+        </div>
+        <div
+          class="w-20 h-20 bg-gray-200 mr-2 flex justify-center items-center"
+        >
+          Block
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
